@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    result = random.choice(["Heads!", "Tails!"])
+    result = random.choice(["HEADS!", "TAILS!"])
     return {"Message":"hELLO, wELCOME tO cOINtOSS", "Drumroll...it's :": result}
 
 # client = TestClient(app)

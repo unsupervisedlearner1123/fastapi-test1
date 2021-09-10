@@ -1,9 +1,7 @@
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
-from main import app
-# import uvicorn
-# import random
 import pytest
+from main import app
 
 client = TestClient(app)
 
